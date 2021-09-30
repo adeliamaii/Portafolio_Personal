@@ -1,0 +1,214 @@
+*{
+    margin: 0em;
+    padding: 0em;
+}
+body{
+    background-color: rgb(255,224,240);
+}
+/*Menú de navegación*/
+header{
+    background-color: rgb(255, 192, 224);
+    padding: 1em 2em 4em 4em;
+}
+ul.nav{
+    list-style: none;
+}
+li.nav>a{
+    font-family: sans-serif,Verdana,Tahoma;
+    float: right;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1em;
+    margin: 0em 0em 0em 1em;
+    color: rgb(96,96,96);
+}
+li.nav>a:hover{
+    color: rgb(255,0,128);
+}
+li.button0>a{
+    font-family: sans-serif,Verdana,Tahoma;
+    float: right;
+    text-decoration: none;
+    background-color: rgb(255,0, 128);
+    border-radius: 2em;
+    color: rgb(255,255,255);
+    padding: 0.75em 2em 0.75em 2em;
+}
+li.button0>a:hover{
+    background-color: rgb(255,128, 192);
+}
+/*presentación de página*/
+#presentacion{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;/*alinea los items en vertical en el centro*/
+    margin: 10% 0%;
+    background-color: rgb(255,224,240);
+}
+#minombre{
+    margin: 0em 0em;
+    background-color: rgb(255,224,240);
+}
+#foto{
+    margin: 0;
+}
+h1{
+    font-family: sans-serif,Verdana,Tahoma;
+    font-weight: bold;
+    font-size: 4em;
+    color: rgb(255,0,128);
+    margin: 0em 0em 0em 0.5em;
+}
+h3{
+    margin: 0em 0em 0em 1em;
+    font-family: sans-serif,Verdana,Tahoma;
+    font-weight: bold;
+    font-size: 2em;
+}
+p{
+    padding: 1em;
+    margin: 0em 1em 0em 1em;
+    font-family: sans-serif,Verdana,Tahoma;
+    font-size: 1em;
+    color: rgb(96,96,96);
+}
+.button1>a{
+    font-family: sans-serif,Verdana,Tahoma;
+    font-size: 1em;
+    background-color: rgb(255,0, 128);
+    color: rgb(255,255,255);
+    text-decoration: none;
+    border-radius: 2em;
+    padding: 1em 2em 1em 2em;
+    margin: 0em;
+}
+.button1>a:hover{
+    background-color: rgb(255,128, 192);
+}
+/*conocimientos*/
+h2{
+    font-family: sans-serif,Verdana,Tahoma;
+    font-weight: bold;
+    font-size: 3em;
+}
+#mis-conocimientos{
+    display: flex;
+    flex-direction: column;
+    margin: 20% 0em;
+}
+#los-conocimientos1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#conocimientos-titulo{
+    width: 30em;
+    margin: 2em 0em 4em;
+}
+#los-conocimientos2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#cuadro1{
+    border: 1px solid rgb(255,192,224);
+    border-radius: 0.5em;
+    width: 14em;
+    height: 14em;
+    margin: 0.5em;
+}
+#los-conocimientos3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#someone{
+    margin: 6em 0em 6em 0em;
+    background-color: rgb(255,0,128);
+    text-align: center;
+    justify-content: center;
+}
+.comillas{
+    font-size: 6em;
+    color: rgb(255,255,255);
+}
+.comillastext{
+    font-size: 1.5em;
+    color: rgb(255,255,255);
+}
+.csomeone{
+    font-size: 1.5em;
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+/*mis proyectos*/
+#mis-proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#proyectos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#proyectos-titulo{
+    width: 30em;
+}
+#los-proyectos1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#los-proyectos2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#los-proyectos3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#proj01{
+    border: 1px solid rgb(255,192,224);
+    border-radius: 0.5em;
+    width: 20em;
+    height: 20em;
+    margin: 0.5em;
+}
+/*contacto*/
+#contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255,224,240);
+    padding: 4em;
+}
+#mis-redes{
+    width: 30em;
+    background-color: rgb(255,224,240);
+    padding: 2em;
+}
+#mensaje{
+    width: 30em;
+    padding: 2em;
+}
+footer{
+    background-color: rgb(255,0,128);
+    text-align: center;
+}
+ul.foot{
+    list-style: none;
+}
+li.foot>a{
+    text-decoration: none;
+    font-family: sans-serif,Verdana,Tahoma;
+    color: rgb(255,255,255);
+    float: left;
+    font-size: 1em;
+    margin: 0em 1em 0em 1em;
+}
